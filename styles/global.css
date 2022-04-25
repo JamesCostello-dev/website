@@ -29,3 +29,7 @@ img {
 main {
     padding-top: 1rem;
 }
+
+code {
+    color: rgb(212,0,255);
+}

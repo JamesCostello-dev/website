@@ -6,7 +6,7 @@ import Link from "next/link";
 import Date from "../components/date";
 import { GetStaticProps } from "next";
 
-export default function Home({ allPostsData }: { allPostsData: { date: string; type: string; title: string; id: string }[] }) {
+export default function Home({ allPostsData }: { allPostsData: { date: string; type: string; title: string; id: string; description: string }[] }) {
     return (
         <Layout home>
             <Head>
@@ -19,13 +19,15 @@ export default function Home({ allPostsData }: { allPostsData: { date: string; t
             <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
                 <h2 className={utilStyles.headingLg}>Recent</h2>
                 <ul className={utilStyles.list}>
-                    {allPostsData.map(({ id, date, type, title }) => (
+                    {allPostsData.map(({ id, date, type, description, title }) => (
                         <li className={utilStyles.listItem} key={id}>
                             <Link href={`/posts/${id}`}>
                                 <a>{title}</a>
                             </Link>
                             <br />
-                            <small>{type}</small>
+                            <small className={utilStyles.lightText}>{type}</small>
+                            <br />
+                            <small>{description}</small>
                             <br />
                             <small className={utilStyles.lightText}>
                                 <Date dateString={date} />
