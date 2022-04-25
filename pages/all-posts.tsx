@@ -32,12 +32,6 @@ export default function allPosts({ allPostsData }: { allPostsData: { date: strin
                         </li>
                     ))}
                 </ul>
-                <br />
-                    <div className={styles.backToHome}>
-                        <Link href="/">
-                            <a>← Back to home</a>
-                        </Link>
-                    </div>
             </section>
         </Layout>
     );

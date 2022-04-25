@@ -19,7 +19,7 @@ export default function Home({ allPostsData }: { allPostsData: { date: string; t
                         .filter((post) => post.type === "Article")
                         .map(({ id, date, type, description, title }) => (
                             <li className={utilStyles.listItem} key={id}>
-                                <Link href={`/posts/${id}`}>
+                                <Link href={`/articles/${id}`}>
                                     <a>{title}</a>
                                 </Link>
                                 <br />

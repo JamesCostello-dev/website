@@ -17,7 +17,7 @@ export default function Home({ allPostsData }: { allPostsData: { date: string; t
                 <ul className={utilStyles.list}>
                     {allPostsData.filter( post => post.type === "Project").map(({ id, date, type, description, title }) => (
                         <li className={utilStyles.listItem} key={id}>
-                            <Link href={`/posts/${id}`}>
+                            <Link href={`/projects/${id}`}>
                                 <a>{title}</a>
                             </Link>
                             <br />
