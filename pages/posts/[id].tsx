@@ -1,4 +1,6 @@
 import Layout from "../../components/layout";
+import styles from '../../components/layout.module.css'
+import Link from 'next/link'
 import { getAllPostIds, getPostData } from "../../lib/posts";
 import Head from "next/head";
 import Date from "../../components/date";
@@ -18,6 +20,12 @@ export default function Post({ postData }: { postData: { title: string; date: st
                 </div>
                 <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
             </article>
+                <br />
+                    <div className={styles.backToHome}>
+                        <Link href="/">
+                            <a>← Back to home</a>
+                        </Link>
+                    </div>
         </Layout>
     );
 }

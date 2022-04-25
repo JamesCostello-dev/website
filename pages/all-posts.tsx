@@ -18,7 +18,7 @@ export default function allPosts({ allPostsData }: { allPostsData: { date: strin
                 <ul className={utilStyles.list}>
                     {allPostsData.map(({ id, date, type, description, title }) => (
                         <li className={utilStyles.listItem} key={id}>
-                            <Link href={`/posts/${id}`}>
+                            <Link href={`/all-posts/${id}`}>
                                 <a>{title}</a>
                             </Link>
                             <br />
@@ -33,6 +33,12 @@ export default function allPosts({ allPostsData }: { allPostsData: { date: strin
                     ))}
                 </ul>
             </section>
+                <br />
+                    <div className={styles.backToHome}>
+                        <Link href="/">
+                            <a>← Back to home</a>
+                        </Link>
+                    </div>
         </Layout>
     );
 }

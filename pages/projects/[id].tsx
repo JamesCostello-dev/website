@@ -23,7 +23,7 @@ export default function Post({ postData }: { postData: { title: string; date: st
                 <br />
                     <div className={styles.backToHome}>
                         <Link href="/projects">
-                            <a>← Back to Projects</a>
+                            <a>← Back to projects</a>
                         </Link>
                     </div>
         </Layout>

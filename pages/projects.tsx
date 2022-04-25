@@ -32,7 +32,7 @@ export default function Home({ allPostsData }: { allPostsData: { date: string; t
                     ))}
                 </ul>
                 <br />
-                <Link href="/articles">Read An Article</Link>
+                <Link href="/articles">Read An article</Link>
             </section>
         </Layout>
     );
