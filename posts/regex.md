@@ -1,6 +1,6 @@
 ---
 title: "Regex"
-type: "Articles"
+type: "Article"
 description: "Regex Tutorial"
 date: "2022-04-19"
 ---

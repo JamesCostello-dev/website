@@ -1,7 +1,7 @@
 ---
 title: "Work Day Scheduler"
 type: "Project"
-description: "Dynamically loading HTML"
+description: "Dynamically Loading HTML"
 date: "2022-04-20"
 ---
 
