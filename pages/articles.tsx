@@ -13,7 +13,7 @@ export default function Home({ allPostsData }: { allPostsData: { date: string; t
                 <title>{siteTitle}</title>
             </Head>
             <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-                <h1 className={utilStyles.headingLg}>Projects</h1>
+                <h1 className={utilStyles.headingLg}>Articles</h1>
                 <ul className={utilStyles.list}>
                     {allPostsData
                         .filter((post) => post.type === "Article")

@@ -8,8 +8,7 @@ import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const name = "James Costello";
 const YEAR = format(new Date(), "yyyy");
-export const siteTitle = "Home";
-
+export const siteTitle = "James Costello"
 export default function Layout({ children, home }: { children: React.ReactNode; home?: boolean }) {
     return (
         <div>

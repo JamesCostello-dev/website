@@ -70,10 +70,6 @@
     text-decoration: none;
 }
 
-.navlist a:active {
-    color: black;
-}
-
 .iconList {
     display: flex;
     width: 20%;

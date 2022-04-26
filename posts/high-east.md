@@ -12,4 +12,4 @@ style layout.
 
 High East is a headless-cms application using [AgilityCMS](https://agilitycms.com/). Built with [Nextjs](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/).
 
-[High East ↗ ](https://shophigheast.com)
+[Deployed Application ↗ ](https://shophigheast.com)
