@@ -14,7 +14,7 @@ export default function Home({ allPostsData }: { allPostsData: { date: string; t
             </Head>
             <section className={utilStyles.headingMd}>
                 <h1>About</h1>
-                <p>Full stack developer based out of Phoenix, Arizona. I started programming 2 years ago after spending the better part of a decade as a financial services professional. I'm a bootcamp graduate from University of Arizona with an associates in information technology from University of Phoenix. The content of this site details my journey; where I started, where I am now, and what I'm currently learning.</p>
+                <p>Full-stack developer with a priority on producing robust user-focused applications. Highly driven individual with the ability to work independently or as a team member. Expert problem solver with a demonstrated ability to add value to business processes and procedures. Goal-oriented focuses on clean code, learning new technologies, and meeting deadlines.</p>
             </section>
             <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
                 <h2 className={utilStyles.headingLg}>Recent</h2>

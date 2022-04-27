@@ -1,7 +1,7 @@
 ---
-title: "What is DNS"
+title: "Domain Name System"
 type: "Article"
-description: "Domain Name System"
+description: "What is DNS, and how does it works."
 date: "2022-04-25"
 ---
 
