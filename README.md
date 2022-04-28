@@ -25,7 +25,7 @@ My website to showcase my projects and articles using nextjs, typescript, css, a
 
 `open terminal`
 
-`git@github.com:JamesCostello-dev/website.git`
+`git clone git@github.com:JamesCostello-dev/website.git`
 
 `cd website`
 
