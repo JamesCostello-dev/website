@@ -39,7 +39,7 @@ My website to showcase my projects and articles using nextjs, typescript, css, a
 
 ## Media
 
-![Screen Shot 2022-04-27 at 10 22 29 PM](https://user-images.githubusercontent.com/28774706/165681955-fec01e52-6e56-4c6a-a58e-315a3e3d3a47.png)
+![Screen Shot 2022-04-27 at 10 22 29 PM](https://user-images.githubusercontent.com/28774706/165682386-281bc783-2c56-4b35-ae06-8fcc52583427.png)
 
 ## Contributions
 
