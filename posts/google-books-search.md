@@ -9,7 +9,7 @@ date: "2022-04-22"
 
 Google Book Search is full stack MERN application using Google Books API built with GraphQL and Apollo Server. Allows users to search Google Books API and save their favorite books to a database.
 
-Google Books Search is built with [Reactjs](https://nextjs.org/), [GraphQL](https://graphql.org/), [Nodejs](https://nodejs.dev), and [MongoDB](https://mongodb.com).
+Google Books Search is built with [Reactjs](https://reactjs.org/), [GraphQL](https://graphql.org/), [Nodejs](https://nodejs.dev), and [MongoDB](https://mongodb.com).
 
 [Source code ↗ ](https://github.com/JamesCostello-dev/Google-Book-Search)
 

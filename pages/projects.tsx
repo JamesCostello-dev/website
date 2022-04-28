@@ -15,21 +15,23 @@ export default function Home({ allPostsData }: { allPostsData: { date: string; t
             <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
                 <h1 className={utilStyles.headingLg}>Projects</h1>
                 <ul className={utilStyles.list}>
-                    {allPostsData.filter( post => post.type === "Project").map(({ id, date, type, description, title }) => (
-                        <li className={utilStyles.listItem} key={id}>
-                            <Link href={`/projects/${id}`}>
-                                <a>{title}</a>
-                            </Link>
-                            <br />
-                            <small className={utilStyles.lightText}>{type}</small>
-                            <br />
-                            <small>{description}</small>
-                            <br />
-                            <small className={utilStyles.lightText}>
-                                <Date dateString={date} />
-                            </small>
-                        </li>
-                    ))}
+                    {allPostsData
+                        .filter((post) => post.type === "Project")
+                        .map(({ id, date, type, description, title }) => (
+                            <li className={utilStyles.listItem} key={id}>
+                                <Link href={`/projects/${id}`}>
+                                    <a>{title}</a>
+                                </Link>
+                                <br />
+                                <small className={utilStyles.lightText}>{type}</small>
+                                <br />
+                                <small>{description}</small>
+                                <br />
+                                <small className={utilStyles.lightText}>
+                                    <Date dateString={date} />
+                                </small>
+                            </li>
+                        ))}
                 </ul>
                 <br />
                 <Link href="/articles">Read an article</Link>

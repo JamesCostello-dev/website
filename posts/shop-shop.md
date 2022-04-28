@@ -9,7 +9,7 @@ date: "2022-04-23"
 
 Shop Shop is a full stack MERN eCommerce store. Customers can signup/login and logout. Search products from a database. Add products to cart or remove products from cart. Checkout when ready using Stripe API.
 
-Shop Shop is built with [Reactjs](https://nextjs.org/), [Redux](https://tailwindcss.com/), [MongoDB](https://mongodb.com), and [Stripe](https://stripe.com/).
+Shop Shop is built with [Reactjs](https://reactjs.org/), [Redux](https://redux.js.org/), [MongoDB](https://mongodb.com), and [Stripe](https://stripe.com/).
 
 [Source code ↗ ](https://github.com/jamescostello-dev/shop-shop)
 
