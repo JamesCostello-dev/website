@@ -5,6 +5,7 @@ import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 import { format } from "date-fns";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { MdEmail } from "react-icons/md"
 
 const name = "James Costello";
 const YEAR = format(new Date(), "yyyy");
@@ -14,9 +15,9 @@ export default function Layout({ children, home }: { children: React.ReactNode; 
         <div>
             <div className={styles.headerDiv}>
                 <div className={styles.action}>
-                    <Link href="https://twitter.com/messages/compose?text=Hello%20James,%20&recipient_id=1324074806438866944">
+                    <Link href="mailto: jcostellodev@gmail.com">
                         <a target="_blank">
-                            <FaTwitter /> Message
+                         <MdEmail /> Contact
                         </a>
                     </Link>
                 </div>
