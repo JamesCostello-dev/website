@@ -5,7 +5,7 @@ import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 import { format } from "date-fns";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
-import { MdEmail } from "react-icons/md"
+import { MdEmail } from "react-icons/md";
 
 const name = "James Costello";
 const YEAR = format(new Date(), "yyyy");
@@ -17,7 +17,7 @@ export default function Layout({ children, home }: { children: React.ReactNode; 
                 <div className={styles.action}>
                     <Link href="mailto: jcostellodev@gmail.com">
                         <a target="_blank">
-                         <MdEmail /> Contact
+                            <MdEmail /> Contact
                         </a>
                     </Link>
                 </div>
@@ -118,7 +118,7 @@ export default function Layout({ children, home }: { children: React.ReactNode; 
                 <footer className={styles.footer}>
                     &copy; James Costello, {YEAR}
                     <>
-                        <Link href="https://github.com/jamescostello-dev/jamescostello.dev">
+                        <Link href="https://github.com/jamescostello-dev/website">
                             <a target="_blank">
                                 <FaGithub /> Source
                             </a>
