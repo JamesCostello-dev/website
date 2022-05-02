@@ -108,7 +108,7 @@ export default function Layout({ children, home }: { children: React.ReactNode; 
             <div className={styles.container}>
                 <Head>
                     <link rel="icon" href="/favicon.ico" />
-                    <meta name="description" content="James Costello Full-Stack Developer" />
+                    <meta name="description" content="James Costello Full-Stack Developer" key="desc" />
                     <meta name="title" content={siteTitle} />
                     <meta name="twitter:card" content="summary_large_image" />
                 </Head>
