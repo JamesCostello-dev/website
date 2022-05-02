@@ -111,6 +111,7 @@ export default function Layout({ children, home }: { children: React.ReactNode; 
                     <meta name="description" content="James Costello Full-Stack Developer" key="desc" />
                     <meta name="title" content={siteTitle} />
                     <meta name="twitter:card" content="summary_large_image" />
+                    <meta name="google-site-verification" content="OjjmTWcUV5pSjGNyz3kOe_UVAuJg9NVuWzONQ0TVAxQ" />
                 </Head>
                 <main>{children}</main>
             </div>
