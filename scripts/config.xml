@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <site base_url="http://jamescostello.dev/" store_into="../public/sitemap.xml" verbose="1">
-
 <url href="http://jamescostello.dev/" />
 <url href="http://jamescostello.dev/projects" />
 <url href="http://jamescostello.dev/articles" />
@@ -26,10 +25,6 @@
 <url href="https://jamescostello.dev/all-posts/google-books-search" />
 <url href="https://jamescostello.dev/all-posts/budget-tracker" />
 <url href="https://jamescostello.dev/all-posts/work-day-scheduler" />
-
-<sitemap path="../public/" />
-
   <filter action="drop" type="wildcard" pattern="*~" />
   <filter action="drop" type="regexp" pattern="/\.[^/]*" />
-
 </site>
