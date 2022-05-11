@@ -8,7 +8,7 @@ import { GetStaticProps } from "next";
 
 export default function Home({ allPostsData }: { allPostsData: { date: string; type: string; title: string; id: string; description: string }[] }) {
     return (
-        <Layout home>
+            <Layout home>
             <Head>
                 <title>{siteTitle}</title>
             </Head>

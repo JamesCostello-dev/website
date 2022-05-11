@@ -2,7 +2,7 @@
 title: "Work Day Scheduler"
 type: "Project"
 description: "Dynamically Loading HTML"
-date: "2022-04-20"
+date: "2022-04-18"
 ---
 
 ![scheduler](https://user-images.githubusercontent.com/28774706/165005557-e0f9437d-cbc7-40ba-a2cf-dfe9a8e6c95a.jpg)
