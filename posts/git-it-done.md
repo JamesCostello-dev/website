@@ -11,6 +11,6 @@ Web app that will search Github for open source projects with open issues and pu
 
 Git It Done is built with HTML, CSS, and Javascript.
 
-[Source code ↗ ](https://github.com/JamesCostello-dev/super-journey)
+[Source code ↗ ](https://github.com/JamesCostello-dev/git-it-done)
 
 [Deployed Application ↗ ](https://jamescostello-dev.github.io/git-it-done/)
